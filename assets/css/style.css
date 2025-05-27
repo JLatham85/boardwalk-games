@@ -8,7 +8,7 @@
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
-    --light-hightlight-color: #7a9fc2; /* light blue */
+    --hightlight-color-light: #7a9fc2; /* light blue */
 }
 
 body {
@@ -24,5 +24,14 @@ h3 {
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.container, .row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgrey;
 }
  
