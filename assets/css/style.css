@@ -117,29 +117,6 @@ h2 {
     background-color: transparent;
 }
 
-/* New Games Section
-#new-games .card-footer {
-    font-weight: bold;
-    color: var(--highlight-color);
-    background-color: transparent;
-} 
-
-#new-games .card {
-    margin-bottom: 1.5rem;
-} */
-
-/* Favourite Games Section 
-#fav-games .card-footer {
-    font-weight: bold;
-    color: var(--highlight-color);
-    background-color: transparent;
-}
-
-#fav-games .card {
-    margin-bottom: 1.5rem;
-} */
-
-
 /* grid visualisation CSS for testing */
 
 /*.container, .row {
