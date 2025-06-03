@@ -66,7 +66,16 @@ h2 {
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
     color: white;
-    }
+}
+
+.custom-button-edges-straight-filled {
+    border-radius: 0;
+    border: 1px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    width: 100%;
+    font-size: 0.8rem;
+}
     
 /* Navbar */
 
@@ -95,12 +104,14 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+
 /* Game Library cards */
 
 #new-games .card,
 #fav-games .card {
     border:none
 }
+
 
 /* Footer / Contact */ 
 
@@ -145,14 +156,14 @@ h2 {
 
 /* grid visualisation CSS for testing */
 
-.container, .row {
+/* .container, .row {
     border: 2px solid black;
 }
  
 .col-12 {
     border: 2px solid white;
     background-color: lightgrey;
-}
+} */
 
 /* Media queries for Index services section */
 
@@ -187,5 +198,4 @@ h2 {
         min-height: 195px; 
     }
 } 
-
 
