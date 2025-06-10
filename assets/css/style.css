@@ -80,6 +80,13 @@ h2 {
 #student-button span {
     vertical-align: top;
 }
+
+#reserve-game button {
+    display: flex;
+    margin-top: 20px;
+    margin: 20px auto;
+    float: right;
+}
     
 /* Navbar */
 
@@ -159,14 +166,14 @@ h2 {
 
 /* grid visualisation CSS for testing */
 
-/* .container, .row {
+/*.container, .row {
     border: 2px solid black;
 }
  
 .col-12 {
     border: 2px solid white;
     background-color: lightgrey;
-} */
+}*/
 
 /* Media queries for Index services section */
 
@@ -176,6 +183,10 @@ h2 {
     #services .card-body {
         min-height: 191px; 
     }
+    #reserve-game {
+    display: flex;
+    width: 490px;
+}
 }
 
 /* Large Devices (desktops, 992px and up) */
@@ -192,6 +203,10 @@ h2 {
     #services .card-body {
         min-height: 220px; 
     }
+    #reserve-game {
+    display: flex;
+    width: 750px;
+}
 } 
 
 /* XXLarge Devices (desktops, 1400px and up) */
@@ -200,6 +215,10 @@ h2 {
     #services .card-body {
         min-height: 195px; 
     }
+     #reserve-game {
+    display: flex;
+    width: 890px;
+}
 } 
 
 /* Media queries for Table events section */
