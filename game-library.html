@@ -374,16 +374,6 @@
                     />
                   </div>
                   <div class="col-12 col-lg-6 mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input
-                      class="form-control"
-                      id="email"
-                      name="email"
-                      type="email"
-                      required
-                    />
-                  </div>
-                  <div class="col-12 col-lg-6 mb-3">
                     <label for="phone" class="form-label">Phone number</label>
                     <input
                       class="form-control"
@@ -394,8 +384,18 @@
                     />
                   </div>
                   <div class="col-12 col-lg-6 mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      type="email"
+                      required
+                    />
+                  </div>
+                  <div class="col-12 col-lg-6 mb-3">
                     <label for="event-type" class="form-label"
-                      >Event type</label
+                      >Select game</label
                     >
                     <select
                       id="event-type"
@@ -403,23 +403,26 @@
                       name="event-type"
                       required
                     >
-                      <option value="" selected>Select</option>
-                      <option value="regular-play">Reserve a table</option>
-                      <option value="dnd">Dungeons & Dragons</option>
-                      <option value="retro-night">Retro Game Night</option>
-                      <option value="tournament">Tournament</option>
-                      <option value="kids-party">Kids party</option>
+                      <option value="" selected>Select game</option>
+                      <option value="galaxy">Galaxy Pioneers</option>
+                      <option value="mystic">Mystic Woods</option>
+                      <option value="captains">Captain's Gambit</option>
+                      <option value="critter">Critters Quest</option>
+                      <option value="setters">Setters of Catan</option>
+                      <option value="monopoly">Monopoly</option>
+                      <option value="exploding">Exploding Kittens</option>
+                      <option value="cluedo">Cluedo</option>
                     </select>
                   </div>
-                  <div class="col-12 mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea
+                  <div class="col-12 col-lg-6 mb-3">
+                    <label for="date" class="form-label">Requested date</label>
+                    <input
                       class="form-control"
-                      rows="6"
-                      id="message"
-                      name="message"
+                      id="date"
+                      name="date"
+                      type="date"
                       required
-                    ></textarea>
+                    />
                   </div>
                 </div>
 
