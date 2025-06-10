@@ -112,7 +112,6 @@ h2 {
     border:none
 }
 
-
 /* Footer / Contact */ 
 
 #contact {
@@ -199,3 +198,14 @@ h2 {
     }
 } 
 
+/* Media queries for Table events section */
+
+/* Mobile Devices (mobiles, 320px and up) */
+@media (min-width: 320px) and (max-width: 767px) {
+    /* Events table no overflow at 320px */
+    #events .table-hover {
+    table-layout: auto;
+    width: 100%;
+    font-size: 0.7rem;
+}
+}
