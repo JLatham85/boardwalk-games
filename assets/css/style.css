@@ -214,9 +214,9 @@ h2 {
 }
 }
 
+/* Student Button center from 768px up */
 /* Medium Devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    /* Make all service cards the same height for consistency */
     .student-id {
     display: flex;
     justify-content: center;
