@@ -209,3 +209,18 @@ h2 {
     font-size: 0.7rem;
 }
 }
+
+/* Medium Devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Make all service cards the same height for consistency */
+    .student-id {
+    display: flex;
+    
+    align-items: center;
+    width: 320px;
+    padding: 0.5rem 1rem;    
+    font-size: 1rem;
+    margin: 0 auto;
+}
+}
+
