@@ -76,6 +76,10 @@ h2 {
     width: 100%;
     font-size: 0.8rem;
 }
+
+#student-button span {
+    vertical-align: top;
+}
     
 /* Navbar */
 
@@ -215,7 +219,7 @@ h2 {
     /* Make all service cards the same height for consistency */
     .student-id {
     display: flex;
-    
+    justify-content: center;
     align-items: center;
     width: 320px;
     padding: 0.5rem 1rem;    
