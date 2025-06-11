@@ -82,6 +82,8 @@ h2 {
 }
 
 #reserve-game button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
     margin: 20px auto;
@@ -149,6 +151,10 @@ h2 {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
 
+    -webkit-transition: color 0.3s ease-in-out;
+
+    -o-transition: color 0.3s ease-in-out;
+
     transition: color 0.3s ease-in-out;
 } 
 
@@ -164,17 +170,6 @@ h2 {
     background-color: transparent;
 }
 
-/* grid visualisation CSS for testing */
-
-/*.container, .row {
-    border: 2px solid black;
-}
- 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
-}*/
-
 /* Media queries for Index services section */
 
 /* Medium Devices (tablets, 768px and up) */
@@ -184,6 +179,8 @@ h2 {
         min-height: 191px; 
     }
     #reserve-game {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 490px;
 }
@@ -204,6 +201,8 @@ h2 {
         min-height: 220px; 
     }
     #reserve-game {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 750px;
 }
@@ -216,6 +215,8 @@ h2 {
         min-height: 195px; 
     }
      #reserve-game {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 890px;
 }
@@ -237,9 +238,15 @@ h2 {
 /* Medium Devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .student-id {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 320px;
     padding: 0.5rem 1rem;    
     font-size: 1rem;
