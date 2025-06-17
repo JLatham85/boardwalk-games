@@ -27,7 +27,7 @@ h3 {
 
 h1,
 h2 {
-    text-transform: lowercase
+    text-transform: uppercase;
 }
 
 h2 {
